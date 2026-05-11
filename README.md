@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 🎬 Movie Recommender System (Mood-Based)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
+This project is a mood-based movie recommendation system that suggests movies based on the user’s current emotional state rather than traditional collaborative filtering (like Netflix-style systems). Instead of relying on user history or ratings, the system asks users how they feel and returns personalized movie suggestions accordingly.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💡 Key Idea
+Traditional recommendation systems rely on collaborative filtering, which often forces users to spend a lot of time browsing, rating, or searching through large libraries before finding something they like.
 
-### `npm start`
+This project takes a simpler and more human-centered approach:
+👉 Instead of making users filter through content, it directly asks what they are feeling and immediately provides personalized movie recommendations based on their mood.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The goal is to reduce decision fatigue and make movie selection faster, more intuitive, and more personalized and satisfactory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project takes a different approach:
+👉 It maps **human emotions → movie categories → personalized recommendations**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Features
+- 🎭 Mood-based input from user (e.g., happy, sad, bored, excited)
+- 🎬 Curated movie suggestions based on emotional state
+- ⚡ Fast and lightweight recommendation logic
+- 🧠 Intuitive and human-centered recommendation approach
+- 💻 Simple and interactive UI (if applicable)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
+- JavaScript / Python (edit based on your project)
+- React.js (if used)
+- HTML, CSS
+- Node.js (if used)
+- JSON / dataset-based logic
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📁 Project Structure
